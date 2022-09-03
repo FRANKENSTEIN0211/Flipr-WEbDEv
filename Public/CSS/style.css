@@ -250,7 +250,7 @@ ul li a:hover{
 }
 .btnn:hover{
     background:  rgb(6, 236, 140);
-    color: #007bffbf;
+    color: black;
 }
 .btnn a{
     text-decoration: none;

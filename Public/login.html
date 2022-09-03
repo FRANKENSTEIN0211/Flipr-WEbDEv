@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Webpage Design</title>
+    <title>VMeet Login</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="homelog.js"></script>
 </head>
 <body>
 
@@ -41,9 +42,9 @@
 
                 <div class="form">
                     <h2>Login Here</h2>
-                    <input type="email" name="email" placeholder="Enter Email Here">
-                    <input type="password" name="" placeholder="Enter Password Here">
-                    <button class="btnn"><a href="#">Login</a></button>
+                    <input type="email" name="email" placeholder="Enter Email Here" id="email">
+                    <input type="password" name="" placeholder="Enter Password Here" id="passwd">
+                    <input type = "submit" class="btnn" value="Login" onclick="validated()">
 
                     <p class="link">Don't have an account<br>
                     <a href="#">Sign up </a> here</a></p>

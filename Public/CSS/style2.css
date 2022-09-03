@@ -14,10 +14,11 @@ html{
     align-items: center;
 }
 .logo img{
-    width: 26%;
+    width: 200px;
     border: 3px solid white;
     border-radius: 50px;
     margin: 5px;
+    
 }
 .navbar{
     display: flex;
@@ -30,7 +31,7 @@ html{
 }
 
 .nav-list{
-    width: 70%; 
+    width: 80%; 
     display: flex; 
     align-items: center;
 }
@@ -48,7 +49,7 @@ html{
 }
 
 .nav-list li a:hover{ 
-    color: rgb(197, 194, 194);
+    color: rgb(6, 236, 140);
 }
 
 .rightNav{ 
@@ -57,21 +58,21 @@ html{
     padding: 0 23px;
 }
 
-#search{
+/*#search{
     padding: 5px;
     font-size: 17px;
     border: 2px solid grey;
     border-radius: 9px;
-}
+}*/
 
 .background{
-    background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background: #007bffbf;
     background-size: cover;
     background-blend-mode: darken;
 }
 
 .firstSection{
-    height: 100vh;
+    height: 500px;
 }
 
 .box-main{
@@ -117,13 +118,17 @@ html{
     margin: 7px 3px;
     border: 2px solid white;
     border-radius: 8px; 
-    background: none;
-    color: white;
+    background: white;
+    color: #007bffbf;
     cursor: pointer;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    font-size: 35px;
 }
-
+.btn:hover{
+    
+color: rgb(6, 236, 140);
+background-color: black;
+}
 .btn-sm{
     padding: 6px 10px;
     vertical-align: middle;
@@ -131,8 +136,9 @@ html{
 }
 
 .btn-dark{
-    color: black;
-        border: 2px solid grey;
+    color: white;
+    background-color: #007bffbf;
+        border: 2px solid black;
 
 }
 .section{ 
@@ -161,12 +167,12 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.thumbnail img{
+/*.thumbnail img{
     width: 250px;
     border: 2px solid black;
     border-radius: 26px;
     margin-top: 19px;
-}
+}*/
 
 .contact{
     background-color: #f6f5f4;
